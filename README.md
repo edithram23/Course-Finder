@@ -31,7 +31,7 @@ This implementation of the Gemini LLM-based course finder provides both text and
      - **FAISS-Based Search**:
        
        ```
-          https://huggingface.co/spaces/edithram23/analyticsvidhya
+       https://huggingface.co/spaces/edithram23/analyticsvidhya
        ```
      - **Gemini LLM (Text-Only)**:
        ```
