@@ -27,10 +27,11 @@ This implementation of the Gemini LLM-based course finder provides both text and
 
 ## How to Run the Project
 
-**Run the Course Finder Tool**
+**Access links**
+   **Deployed in HF SPACES**
    - Choose one of the three approaches:
      - **FAISS-Based Search**:
-       Deployed in HF SPACES
+       
        ```
           https://huggingface.co/spaces/edithram23/analyticsvidhya
        ```
