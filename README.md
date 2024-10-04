@@ -25,9 +25,7 @@ This version of the Gemini LLM-based course finder provides course recommendatio
 This implementation of the Gemini LLM-based course finder provides both text and link output for each course, allowing users to directly access the suggested courses.
 - **Approach**: Enhances the Gemini LLM model to provide detailed course information, including links for easier access.
 
-## How to Run the Project
-
-**Access links**
+## Access links
    **Deployed in HF SPACES**
    - Choose one of the three approaches:
      - **FAISS-Based Search**:
