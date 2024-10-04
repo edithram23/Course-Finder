@@ -13,54 +13,36 @@ The `scrapper.py` script collects data such as course titles, descriptions, inst
 
 The FAISS (Facebook AI Similarity Search) implementation provides a fast and efficient way to find the most relevant courses based on user preferences.
 Embeddings were generated using a HF Sentence Transformer - all-MiniLM-L6-v2
-
-- **Files**: `Faiss_app.py`, `course_data.csv`, `requirements.txt`
 - **Approach**: Uses FAISS to create a similarity search index of courses, allowing for real-time course recommendations.
 
 ### 2. **Gemini LLM - Text-Only Output**
 
 This version of the Gemini LLM-based course finder provides course recommendations in text format only.
-
-- **Files**: `gemini_app.py`, `database.txt`, `requirements.txt`
-- **Approach**: Uses a language model to interpret user input and suggest relevant courses based on textual information.
+- **Approach**: Uses a language model to interpret user input and suggest relevant courses based on descriptions.
 
 ### 3. **Gemini LLM - Text & Link Output**
 
 This implementation of the Gemini LLM-based course finder provides both text and link output for each course, allowing users to directly access the suggested courses.
-
-- **Files**: `gemini_link_app.py`, `data_base.txt`, `requirements.txt`
 - **Approach**: Enhances the Gemini LLM model to provide detailed course information, including links for easier access.
 
 ## How to Run the Project
 
-1. **Scrape Course Data**
-   - Run the scraper to collect course information:
-     ```
-     python scrapper.py
-     ```
-   - Ensure that the required dependencies are installed from `requirements.txt` in the scraper folder.
-
-2. **Run the Course Finder Tool**
+**Run the Course Finder Tool**
    - Choose one of the three approaches:
      - **FAISS-Based Search**:
+       Deployed in HF SPACES
        ```
-       python Faiss_app.py
+          https://huggingface.co/spaces/edithram23/analyticsvidhya
        ```
      - **Gemini LLM (Text-Only)**:
        ```
-       python gemini_app.py
+       https://huggingface.co/spaces/edithram23/analyticsvidhya-gemini
        ```
      - **Gemini LLM (Text & Link Output)**:
        ```
-       python gemini_link_app.py
+       https://huggingface.co/spaces/edithram23/analyticsvidhya-gemini-link
        ```
-   - Install dependencies using the corresponding `requirements.txt` file.
 
-## Summary of Approaches
-
-1. **FAISS-Based Course Finder**: Uses similarity search to efficiently recommend courses based on a pre-indexed dataset.
-2. **Gemini LLM (Text-Only)**: Utilizes a language model to provide course recommendations in a simple text format.
-3. **Gemini LLM (Text & Link Output)**: Extends the text-based approach by including course links for direct access, providing a richer user experience.
 
 ## Choosing the Right Approach
 
