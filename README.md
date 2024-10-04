@@ -1,6 +1,6 @@
 # Course Finder Project
 
-This project aims to develop a comprehensive course finder tool that suggests the most relevant courses based on user preferences. It integrates multiple approaches to enhance the search and recommendation process, including FAISS, Gemini LLM with text-only output, and Gemini LLM with both text and link output.
+This project aims to develop a comprehensive course finder tool that helps users find the most relevant courses on Analytics Vidhya's platform based on user preferences. The project involves three different approaches for enhancing the search and recommendation process, including FAISS, Gemini LLM with text-only output, and Gemini LLM with both text and link output. Additionally, a data scraper is used to gather course information from Analytics Vidhya’s platform.
 
 ## Project Components
 
